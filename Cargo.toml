@@ -1,0 +1,9 @@
+[package]
+name = "btcplotter"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+plotters = "0.3.7"
+csv = "1.1"
+serde = { version = "1.0", features = ["derive"] }
